@@ -1,0 +1,48 @@
+[
+  {
+    "modelo": "Regresión logística (softmax)",
+    "accuracy": 0.9259,
+    "precision_macro": 0.9249794747531949,
+    "recall_macro": 0.9248142585642285,
+    "f1_macro": 0.9248180672957487,
+    "cv_acc_mean": 0.9035,
+    "cv_acc_std": 0.005513619500836088,
+    "seg": 80.0
+  },
+  {
+    "modelo": "KNN (k=3, PCA-50)",
+    "accuracy": 0.976,
+    "precision_macro": 0.9759201917100861,
+    "recall_macro": 0.9757055282618398,
+    "f1_macro": 0.9757899079879004,
+    "cv_acc_mean": 0.9558,
+    "cv_acc_std": 0.0032954514106568306,
+    "seg": 6.1
+  },
+  {
+    "modelo": "SVM RBF (PCA-50)",
+    "accuracy": 0.9868,
+    "precision_macro": 0.9867250977440916,
+    "recall_macro": 0.9867070926797806,
+    "f1_macro": 0.9867096005987935,
+    "cv_acc_mean": 0.9718000000000002,
+    "cv_acc_std": 0.0026758176320519442,
+    "seg": 68.2
+  },
+  {
+    "modelo": "K-Means (k=10, exploratorio)",
+    "accuracy": 0.5945,
+    "precision_macro": 0.5034660488697291,
+    "recall_macro": 0.5844061025730748,
+    "f1_macro": 0.5331656146691743
+  },
+  {
+    "modelo": "CNN (Conv x4 + Dense)",
+    "accuracy": 0.9918,
+    "precision_macro": 0.9917875216976689,
+    "recall_macro": 0.9918993675075853,
+    "f1_macro": 0.9918350879673875,
+    "cv_acc_mean": 0.8263333241144816,
+    "cv_acc_std": 0.06393823407579323
+  }
+]
